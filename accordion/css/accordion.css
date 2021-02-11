@@ -1,0 +1,65 @@
+html, body {
+
+}
+.content {
+    display: block;
+    position: relative;
+}
+.title {
+
+}
+.accordion {
+    /*min-height: 420px;*/
+    border: 1px solid #595959;
+}
+.section {
+    background: #f6f6f6;
+    border-radius: 3px;
+    margin: 2px 0 2px 7px;
+    padding: 1px 1px 1px 2px;
+}
+.section-button:hover {
+    background: #a6a6a6;
+}
+.section-button .active:hover {
+    background: #0C7FF2;
+}
+.section-button {
+    height: 100%;
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.section-img {
+    background-image: url("../images/caret-forward-sharp.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.section-title {
+    padding: 2px 0 0 2px;
+}
+.section-content {
+    /*display: none;*/
+    background-color: #cccccc;
+    /*transition: 0.5s;*/
+    overflow: hidden;
+    height: 0;
+}
+.p-content {
+    /*padding: 2px 0 30px 0;*/
+    overflow: hidden;
+}
+.active {
+    border: 2px solid #000000;
+    background-color: #0C7FF2;
+    padding: 6px 0px 6px 9px;
+    margin: 0 0 0px 0;
+}
+
+.active .section-img {
+    transform: rotate(100grad);
+}
+
