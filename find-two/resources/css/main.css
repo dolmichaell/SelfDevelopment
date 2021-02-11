@@ -1,0 +1,42 @@
+.content-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content-section-button {
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  padding: 7px 10px;
+  margin: 0 10px;
+}
+.content-section-button:hover {
+  background: #0C7FF2;
+}
+.active {
+  opacity: 0;
+}
+.flip {
+  transform: rotateY(180deg);
+}
+.picture {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+.picture-img {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.picture-img-shirt {
+  margin: 10px;
+  position: absolute;
+}
+.picture-img-images {
+  margin: 10px;
+  transform: rotateY(180deg);
+}

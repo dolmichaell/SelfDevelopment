@@ -1,0 +1,18 @@
+1. https://www.sublimetext.com/docs/3/linux_repositories.html - редактор коду настройка
+
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp - медіазапити прочитати
+
+https://webformyself.com/chto-takoe-setka-butstrap/ - 12 колонок сітка
+
+https://fontawesome.ru/ - підключається "link...
+
+gimp - програмка на ubuntu , відкриття .psd
+
+
+
+
+git add .
+
+git commit -m"some text"
+
+git push origin HEAD

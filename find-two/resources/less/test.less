@@ -1,0 +1,42 @@
+@import "colors.less";
+@import "fonts.less";
+@asd: 123px;
+@hotdog: #c26013;
+body {
+  width: @asd;
+  background-color: @hotdog;
+}
+.test {
+  min-width: @asd;
+
+  &-title {
+    height: @asd;
+    .gamdurg & {
+      text-decoration: underline;
+    }
+
+    &.active {
+      color: @hotdog;
+    }
+
+    &-new {
+      background: @hotdog;
+    }
+  }
+
+  .test-title {
+    color: @hotdog;
+
+    .gamdurg& {
+      margin: auto;
+    }
+  }
+
+  &-prefix {
+    padding: 20px;
+
+    &:hover {
+      background-color: @hotdog;
+    }
+  }
+}

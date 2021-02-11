@@ -1,0 +1,11 @@
+{
+  "name": "find-two",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Misha",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-ui-dist": "^1.12.1"
+  }
+}
